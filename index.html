@@ -62,15 +62,41 @@
         </div>    
       </div>
     </header>
-    <main>
-      <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquam corrupti enim tenetur corporis quos voluptatem! Voluptatum, voluptate ex eum sapiente consequuntur quidem corrupti excepturi error ipsam, sequi aliquam reiciendis?</p>
-      <p class="test-r">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquam corrupti enim tenetur corporis quos voluptatem! Voluptatum, voluptate ex eum sapiente consequuntur quidem corrupti excepturi error ipsam, sequi aliquam reiciendis?</p>
-      <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquam corrupti enim tenetur corporis quos voluptatem! Voluptatum, voluptate ex eum sapiente consequuntur quidem corrupti excepturi error ipsam, sequi aliquam reiciendis?</p>
-      <p class="test-r">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquam corrupti enim tenetur corporis quos voluptatem! Voluptatum, voluptate ex eum sapiente consequuntur quidem corrupti excepturi error ipsam, sequi aliquam reiciendis?</p>
-      <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aliquam corrupti enim tenetur corporis quos voluptatem! Voluptatum, voluptate ex eum sapiente consequuntur quidem corrupti excepturi error ipsam, sequi aliquam reiciendis?</p>
-      <p class="test-r">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas ipsum accusamus sequi exercitationem dolore. Tenetur nam quos eius labore sed ducimus, quasi amet animi molestias, expedita ipsam ipsum cumque?</p>
-    </main>
-    <script src="./js/modal.js"></script>
+    <div class="backdrop-mobile is-hidden" data-mobile-menu>
+      <div class="backdrop-mobile__container">
+        <div class="mobile-menu">
+          <button class="mobile-menu__button" type="button" data-mobile-menu-close>
+            <svg class="mobile-menu__icon-thumb">
+              <use class="mobile-menu__icon" href="./images/icons/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <!-- Кнопка бай нав -->
+          <div class="button-container">
+            <button class="button-mobile button" type="button">Buy now</button>
+          </div>
+          <!-- Мобільна навігація -->
+          <div class="navigation-mobile">
+            <ul class="navigation-mobile__list">
+              <li class="navigation-mobile__item">
+                <a class="link navigation-mobile__link" href="#">Home</a>
+              </li>
+              <li class="navigation-mobile__item">
+                <a class="link navigation-mobile__link" href="#">About us</a>
+              </li>
+              <li class="navigation-mobile__item">
+                <a class="link navigation-mobile__link" href="#">How it’s made?</a>
+              </li>
+              <li class="navigation-mobile__item">
+                <a class="link navigation-mobile__link" href="#">Our products</a>
+              </li>
+              <li class="navigation-mobile__item">
+                <a class="link navigation-mobile__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

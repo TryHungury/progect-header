@@ -1,25 +1,20 @@
 /* Змінні */
+
 :root {
-    --color-primary: #212121;
-    --color-secondary: #757575;
-    --color-third: #000000;
-    --color-accent: #2196F3;
-    --color-other: #ffffff;
-    --color-alfa: #ffffff85;
-    --color-border: #eeeeee;
-    --color-always-clients: #afb1b8;
-    --color-fill-footer: rgba(255, 255, 255, 0.1);
+    --colorText-primary: rgba(212, 20, 67, 1);
+    --colorText-secondary: rgba(255, 255, 255, 1);
+    --colorText-third: rgba(255, 165, 186, 1);
+    --colorText-other: rgba(0, 0, 0, 1);
+    --colorText-accent: rgba(144, 126, 130, 1);
+    --colorText-reviews: rgba(144, 126, 130, 1);
+
+    --color-icon: rgba(254, 165, 187, 1);
     
-    --color-background-primary: #e5e5e5;
-    --color-background-secondary: #2f303a;
-    --color-background-third: #f5f4fa;
-    --color-background-accent: #2196f3;
-    --color-background-other: #ffffff;
-    --color-background-ground: #ececec;
-    --color-background-fon-opacity: rgba(47, 48, 58, 0.8);
-
-    --font-family-primary: 'Roboto', sans-serif;
-    --font-family-secondary: 'Raleway', sans-serif;
-
-    --default-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    --colorBack-primary: rgba(255, 245, 246, 1);
+    --colorBack-secondary: rgba(255, 184, 202, 1);
+    --colorBack-modal: rgba(225, 121, 146, 1);
+    --colorBack-btnHover: rgba(236, 235, 235, 1);
+    
+    --fontFamaly-primary: 'Titan One', cursive;
+    --fontFamaly-secondary: 'DM Sans', sans-serif;
+  }
