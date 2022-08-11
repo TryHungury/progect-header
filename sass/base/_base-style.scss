@@ -1,0 +1,46 @@
+/* Контейнер */
+.container {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    @include media-min (768px) {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    @include media-min (1200px) {
+        max-width: 1200px;
+        padding: 0 16px;
+    }
+}  
+
+/* Властивості на все тіло */
+
+/* Стилі заголовки */
+
+/* Стиль посилань */
+.link {
+    color: var(--color-secondary);
+    fill: var(--color-secondary);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    text-decoration: none;
+}
+
+main {
+    padding-top: 120px ;
+    background-color: #FFB8CA;
+}
+
+.test {
+    height: 600px;
+    background-color: aqua;
+}
+.test-r {
+    height: 600px;
+    background-color: wheat;
+}

@@ -1,0 +1,29 @@
+/* Навігація */
+.navigation {
+    display: none;
+
+    &__list {
+        display: flex;
+        align-items: center;
+    } 
+    &__item:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    &__link {  
+        position: relative;
+        padding: 8px 0; 
+        color: var(--color-primary);
+        transition: color var(--default-transition);
+
+        /* Навігація ховер, фокус */
+            &:hover,
+            &:focus {
+                color: var(--color-accent);
+            }
+    }
+
+    @include media-min (1200px) {
+        display: block;
+    }
+}
